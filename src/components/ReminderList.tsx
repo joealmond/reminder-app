@@ -1,6 +1,5 @@
 import React from 'react';
 import Reminder from '../models/reminder';
-import { on } from 'events';
 
 interface ReminderListProps {
     reminderItems: Reminder[];
